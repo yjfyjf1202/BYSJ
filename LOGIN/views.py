@@ -65,7 +65,7 @@ def parseQCWY(url):
         s = ""
         for i in range(len(order)):
             if i % 4 == 0 and i != 0 or i == 79:
-                j = j + 1
+                # j = j + 1
                 list.append(s)
                 # print(i,s)
                 s = ""

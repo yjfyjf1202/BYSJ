@@ -96,3 +96,5 @@ def screenInfo(request):
     res=getResponse(url)
     print(lv)
     return HttpResponse(json.dumps(res))
+
+

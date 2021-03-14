@@ -12,7 +12,7 @@ urlpatterns = [
 
     # url(r'getDatabaselist',GDBL)
     url(r'inserQCWY',insertQCWY),
-    url(r'getZP',getZP),
+
     url(r'qcwyScreen',qcwyScreen),
     url(r'ScreenQCWYData',ScreenQCWYData),
     url(r'SearchQCWY',SeacherQCWY)
